@@ -1,0 +1,16 @@
+[package]
+name = "word"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { git = "https://github.com/clap-rs/clap" }
+dotenv = "0.15.0"
+hyphenation = "0.8.4"
+regex = "1.5.4"
+term_size = "0.3.2"
+textwrap = { version = "0.14.2", features = ["hyphenation"] }
+# wordnik = "0.1.1"
+wordnik = { git = "https://github.com/archer884/wordnik" }
